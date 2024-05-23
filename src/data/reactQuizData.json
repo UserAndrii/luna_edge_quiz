@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "question": "What is React?",
+    "answers": [
+      {
+        "text": "A library for building user interfaces",
+        "isCorrect": true
+      },
+      {
+        "text": "A framework for building websites",
+        "isCorrect": false
+      },
+      {
+        "text": "A programming language",
+        "isCorrect": false
+      },
+      {
+        "text": "An Integrated Development Environment (IDE)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Who developed React?",
+    "answers": [
+      {
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "text": "Microsoft",
+        "isCorrect": false
+      },
+      {
+        "text": "Facebook",
+        "isCorrect": true
+      },
+      {
+        "text": "Twitter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is JSX?",
+    "answers": [
+      {
+        "text": "A syntax extension for JavaScript",
+        "isCorrect": true
+      },
+      {
+        "text": "A programming language",
+        "isCorrect": false
+      },
+      {
+        "text": "A tool for testing",
+        "isCorrect": false
+      },
+      {
+        "text": "A framework for building mobile apps",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Which method is used to create a component in a class component?",
+    "answers": [
+      {
+        "text": "render()",
+        "isCorrect": true
+      },
+      {
+        "text": "componentDidMount()",
+        "isCorrect": false
+      },
+      {
+        "text": "constructor()",
+        "isCorrect": false
+      },
+      {
+        "text": "componentWillUnmount()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How do you pass data from a parent component to a child component?",
+    "answers": [
+      {
+        "text": "Using state",
+        "isCorrect": false
+      },
+      {
+        "text": "Using props",
+        "isCorrect": true
+      },
+      {
+        "text": "Using context",
+        "isCorrect": false
+      },
+      {
+        "text": "Using refs",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is state in React?",
+    "answers": [
+      {
+        "text": "External data passed to the component",
+        "isCorrect": false
+      },
+      {
+        "text": "The internal data that affects the rendering of the component",
+        "isCorrect": true
+      },
+      {
+        "text": "A lifecycle method",
+        "isCorrect": false
+      },
+      {
+        "text": "A library for state management",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Which hook is used to manage state in functional components?",
+    "answers": [
+      {
+        "text": "useEffect",
+        "isCorrect": false
+      },
+      {
+        "text": "useContext",
+        "isCorrect": false
+      },
+      {
+        "text": "useState",
+        "isCorrect": true
+      },
+      {
+        "text": "useReducer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Which method is used to add state to class components?",
+    "answers": [
+      {
+        "text": "setState()",
+        "isCorrect": true
+      },
+      {
+        "text": "useState()",
+        "isCorrect": false
+      },
+      {
+        "text": "useEffect()",
+        "isCorrect": false
+      },
+      {
+        "text": "componentDidUpdate()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What are props in React?",
+    "answers": [
+      {
+        "text": "Internal data of the component",
+        "isCorrect": false
+      },
+      {
+        "text": "Arguments passed to the component for configuration",
+        "isCorrect": true
+      },
+      {
+        "text": "A lifecycle method",
+        "isCorrect": false
+      },
+      {
+        "text": "A tool for state management",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What are fragments in React?",
+    "answers": [
+      {
+        "text": "Components that share functionality",
+        "isCorrect": false
+      },
+      {
+        "text": "Lifecycle methods",
+        "isCorrect": false
+      },
+      {
+        "text": "Hooks for managing state",
+        "isCorrect": false
+      },
+      {
+        "text": "A way to group multiple elements without adding extra nodes to the DOM",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Which command is used to create a new React project?",
+    "answers": [
+      {
+        "text": "npx create-react-app my-app",
+        "isCorrect": true
+      },
+      {
+        "text": "npm start",
+        "isCorrect": false
+      },
+      {
+        "text": "npm install react",
+        "isCorrect": false
+      },
+      {
+        "text": "npx react-init",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Which lifecycle method is called after a component is updated?",
+    "answers": [
+      {
+        "text": "componentDidUpdate",
+        "isCorrect": true
+      },
+      {
+        "text": "componentDidMount",
+        "isCorrect": false
+      },
+      {
+        "text": "shouldComponentUpdate",
+        "isCorrect": false
+      },
+      {
+        "text": "componentWillUnmount",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Which hook is used for side effects in functional components?",
+    "answers": [
+      {
+        "text": "useState",
+        "isCorrect": false
+      },
+      {
+        "text": "useEffect",
+        "isCorrect": true
+      },
+      {
+        "text": "useContext",
+        "isCorrect": false
+      },
+      {
+        "text": "useReducer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is the Virtual DOM?",
+    "answers": [
+      {
+        "text": "A technology to speed up browser performance",
+        "isCorrect": false
+      },
+      {
+        "text": "An exact copy of the real DOM kept in memory to optimize updates",
+        "isCorrect": true
+      },
+      {
+        "text": "A lifecycle method",
+        "isCorrect": false
+      },
+      {
+        "text": "A library for state management",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Which lifecycle method is called immediately after a component is inserted into the DOM?",
+    "answers": [
+      {
+        "text": "componentDidMount",
+        "isCorrect": true
+      },
+      {
+        "text": "componentWillMount",
+        "isCorrect": false
+      },
+      {
+        "text": "componentWillUpdate",
+        "isCorrect": false
+      },
+      {
+        "text": "componentWillUnmount",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "What are keys in React?",
+    "answers": [
+      {
+        "text": "Unique identifiers for elements used when rendering lists",
+        "isCorrect": true
+      },
+      {
+        "text": "Special lifecycle methods",
+        "isCorrect": false
+      },
+      {
+        "text": "Component properties",
+        "isCorrect": false
+      },
+      {
+        "text": "Methods for managing state",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Which hook allows creating context in React?",
+    "answers": [
+      {
+        "text": "useState",
+        "isCorrect": false
+      },
+      {
+        "text": "useEffect",
+        "isCorrect": false
+      },
+      {
+        "text": "useContext",
+        "isCorrect": false
+      },
+      {
+        "text": "createContext",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What is an HOC (Higher-Order Component) in React?",
+    "answers": [
+      {
+        "text": "A function that takes a component and returns a new component",
+        "isCorrect": true
+      },
+      {
+        "text": "A lifecycle method",
+        "isCorrect": false
+      },
+      {
+        "text": "A hook for managing state",
+        "isCorrect": false
+      },
+      {
+        "text": "A testing tool",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Which method is used to create context in class components?",
+    "answers": [
+      {
+        "text": "createContext",
+        "isCorrect": false
+      },
+      {
+        "text": "static contextType",
+        "isCorrect": true
+      },
+      {
+        "text": "useContext",
+        "isCorrect": false
+      },
+      {
+        "text": "useReducer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "What is a PureComponent in React?",
+    "answers": [
+      {
+        "text": "A component without state",
+        "isCorrect": false
+      },
+      {
+        "text": "A component that prevents unnecessary re-renders if its props and state have not changed",
+        "isCorrect": true
+      },
+      {
+        "text": "A functional component",
+        "isCorrect": false
+      },
+      {
+        "text": "A lifecycle method",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Which directive is used to import React?",
+    "answers": [
+      {
+        "text": "import React from 'react'",
+        "isCorrect": true
+      },
+      {
+        "text": "require('react')",
+        "isCorrect": false
+      },
+      {
+        "text": "include React from 'react'",
+        "isCorrect": false
+      },
+      {
+        "text": "load React from 'react'",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What are refs in React?",
+    "answers": [
+      {
+        "text": "A method to change the state of a component",
+        "isCorrect": false
+      },
+      {
+        "text": "A way to access DOM elements or React elements created in the render method",
+        "isCorrect": true
+      },
+      {
+        "text": "A hook for managing state",
+        "isCorrect": false
+      },
+      {
+        "text": "A lifecycle method",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Which method is used to render a component in React?",
+    "answers": [
+      {
+        "text": "render()",
+        "isCorrect": true
+      },
+      {
+        "text": "show()",
+        "isCorrect": false
+      },
+      {
+        "text": "display()",
+        "isCorrect": false
+      },
+      {
+        "text": "mount()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "What are components in React?",
+    "answers": [
+      {
+        "text": "Functions or classes that return a part of the UI",
+        "isCorrect": true
+      },
+      {
+        "text": "Lifecycle methods",
+        "isCorrect": false
+      },
+      {
+        "text": "Hooks for managing state",
+        "isCorrect": false
+      },
+      {
+        "text": "Tools for testing",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "What is the primary purpose of React?",
+    "answers": [
+      {
+        "text": "To manage state in JavaScript applications",
+        "isCorrect": false
+      },
+      {
+        "text": "To build server-side applications",
+        "isCorrect": false
+      },
+      {
+        "text": "To build reusable UI components",
+        "isCorrect": true
+      },
+      {
+        "text": "To create database schemas",
+        "isCorrect": false
+      }
+    ]
+  }
+]

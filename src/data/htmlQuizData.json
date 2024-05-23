@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "answers": [
+      {
+        "text": "Hyper Text Markup Language",
+        "isCorrect": true
+      },
+      {
+        "text": "Home Tool Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyperlinks and Text Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyperlinking Text Marking Language",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of the <head> section in an HTML document?",
+    "answers": [
+      {
+        "text": "To contain meta-information about the document",
+        "isCorrect": true
+      },
+      {
+        "text": "To contain the main content of the document",
+        "isCorrect": false
+      },
+      {
+        "text": "To contain the document's title and body",
+        "isCorrect": false
+      },
+      {
+        "text": "To contain JavaScript code",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which HTML element is used to define a paragraph?",
+    "answers": [
+      {
+        "text": "<p>",
+        "isCorrect": true
+      },
+      {
+        "text": "<para>",
+        "isCorrect": false
+      },
+      {
+        "text": "<par>",
+        "isCorrect": false
+      },
+      {
+        "text": "<paragraph>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "How do you create a hyperlink in HTML?",
+    "answers": [
+      {
+        "text": "<a href='url'>Link text</a>",
+        "isCorrect": true
+      },
+      {
+        "text": "<link url='url'>Link text</link>",
+        "isCorrect": false
+      },
+      {
+        "text": "<a>Link text</a>",
+        "isCorrect": false
+      },
+      {
+        "text": "<href url='url'>Link text</href>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the correct HTML element for inserting a line break?",
+    "answers": [
+      {
+        "text": "<br>",
+        "isCorrect": true
+      },
+      {
+        "text": "<break>",
+        "isCorrect": false
+      },
+      {
+        "text": "<lb>",
+        "isCorrect": false
+      },
+      {
+        "text": "<newline>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which HTML element is used to define an unordered list?",
+    "answers": [
+      {
+        "text": "<ul>",
+        "isCorrect": true
+      },
+      {
+        "text": "<ol>",
+        "isCorrect": false
+      },
+      {
+        "text": "<list>",
+        "isCorrect": false
+      },
+      {
+        "text": "<li>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is the correct HTML element for the largest heading?",
+    "answers": [
+      {
+        "text": "<h1>",
+        "isCorrect": true
+      },
+      {
+        "text": "<heading>",
+        "isCorrect": false
+      },
+      {
+        "text": "<h6>",
+        "isCorrect": false
+      },
+      {
+        "text": "<head>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Which HTML attribute is used to define inline styles?",
+    "answers": [
+      {
+        "text": "style",
+        "isCorrect": true
+      },
+      {
+        "text": "class",
+        "isCorrect": false
+      },
+      {
+        "text": "styles",
+        "isCorrect": false
+      },
+      {
+        "text": "font",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Which HTML element is used to specify a footer for a document or section?",
+    "answers": [
+      {
+        "text": "<footer>",
+        "isCorrect": true
+      },
+      {
+        "text": "<bottom>",
+        "isCorrect": false
+      },
+      {
+        "text": "<section>",
+        "isCorrect": false
+      },
+      {
+        "text": "<foot>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "How can you open a link in a new tab/browser window?",
+    "answers": [
+      {
+        "text": "target='_blank'",
+        "isCorrect": true
+      },
+      {
+        "text": "target='_new'",
+        "isCorrect": false
+      },
+      {
+        "text": "target='new_tab'",
+        "isCorrect": false
+      },
+      {
+        "text": "target='new'",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Which HTML element is used to define important text?",
+    "answers": [
+      {
+        "text": "<strong>",
+        "isCorrect": true
+      },
+      {
+        "text": "<b>",
+        "isCorrect": false
+      },
+      {
+        "text": "<i>",
+        "isCorrect": false
+      },
+      {
+        "text": "<important>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "How do you create a checkbox in HTML?",
+    "answers": [
+      {
+        "text": "<input type='checkbox'>",
+        "isCorrect": true
+      },
+      {
+        "text": "<checkbox>",
+        "isCorrect": false
+      },
+      {
+        "text": "<input type='check'>",
+        "isCorrect": false
+      },
+      {
+        "text": "<input type='box'>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Which attribute is used to specify an alternate text for an image, if the image cannot be displayed?",
+    "answers": [
+      {
+        "text": "alt",
+        "isCorrect": true
+      },
+      {
+        "text": "title",
+        "isCorrect": false
+      },
+      {
+        "text": "src",
+        "isCorrect": false
+      },
+      {
+        "text": "href",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "How do you make a numbered list in HTML?",
+    "answers": [
+      {
+        "text": "<ol>",
+        "isCorrect": true
+      },
+      {
+        "text": "<ul>",
+        "isCorrect": false
+      },
+      {
+        "text": "<list>",
+        "isCorrect": false
+      },
+      {
+        "text": "<dl>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is the correct HTML for making a text input field?",
+    "answers": [
+      {
+        "text": "<input type='text'>",
+        "isCorrect": true
+      },
+      {
+        "text": "<input type='textfield'>",
+        "isCorrect": false
+      },
+      {
+        "text": "<textinput>",
+        "isCorrect": false
+      },
+      {
+        "text": "<textfield>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Which HTML attribute specifies a unique identifier for an element?",
+    "answers": [
+      {
+        "text": "id",
+        "isCorrect": true
+      },
+      {
+        "text": "class",
+        "isCorrect": false
+      },
+      {
+        "text": "key",
+        "isCorrect": false
+      },
+      {
+        "text": "ref",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "How can you make a bulleted list?",
+    "answers": [
+      {
+        "text": "<ul>",
+        "isCorrect": true
+      },
+      {
+        "text": "<ol>",
+        "isCorrect": false
+      },
+      {
+        "text": "<dl>",
+        "isCorrect": false
+      },
+      {
+        "text": "<list>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What is the correct HTML for inserting an image?",
+    "answers": [
+      {
+        "text": "<img src='image.jpg' alt='Description'>",
+        "isCorrect": true
+      },
+      {
+        "text": "<image src='image.jpg' alt='Description'>",
+        "isCorrect": false
+      },
+      {
+        "text": "<img alt='Description'>image.jpg</img>",
+        "isCorrect": false
+      },
+      {
+        "text": "<img href='image.jpg' alt='Description'>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Which element is used for creating a drop-down list?",
+    "answers": [
+      {
+        "text": "<select>",
+        "isCorrect": true
+      },
+      {
+        "text": "<dropdown>",
+        "isCorrect": false
+      },
+      {
+        "text": "<list>",
+        "isCorrect": false
+      },
+      {
+        "text": "<menu>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "How do you define a table in HTML?",
+    "answers": [
+      {
+        "text": "<table>",
+        "isCorrect": true
+      },
+      {
+        "text": "<tbl>",
+        "isCorrect": false
+      },
+      {
+        "text": "<tab>",
+        "isCorrect": false
+      },
+      {
+        "text": "<tb>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Which HTML attribute is used to define inline CSS styles?",
+    "answers": [
+      {
+        "text": "style",
+        "isCorrect": true
+      },
+      {
+        "text": "class",
+        "isCorrect": false
+      },
+      {
+        "text": "font",
+        "isCorrect": false
+      },
+      {
+        "text": "css",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Which element is used to define emphasized text?",
+    "answers": [
+      {
+        "text": "<em>",
+        "isCorrect": true
+      },
+      {
+        "text": "<i>",
+        "isCorrect": false
+      },
+      {
+        "text": "<italic>",
+        "isCorrect": false
+      },
+      {
+        "text": "<strong>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "How can you make a comment in HTML?",
+    "answers": [
+      {
+        "text": "<!-- Comment -->",
+        "isCorrect": true
+      },
+      {
+        "text": "// Comment",
+        "isCorrect": false
+      },
+      {
+        "text": "<comment> Comment </comment>",
+        "isCorrect": false
+      },
+      {
+        "text": "' Comment",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Which HTML element is used to specify a header for a document or section?",
+    "answers": [
+      {
+        "text": "<header>",
+        "isCorrect": true
+      },
+      {
+        "text": "<head>",
+        "isCorrect": false
+      },
+      {
+        "text": "<section>",
+        "isCorrect": false
+      },
+      {
+        "text": "<top>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Which HTML element is used to play audio files?",
+    "answers": [
+      {
+        "text": "<audio>",
+        "isCorrect": true
+      },
+      {
+        "text": "<sound>",
+        "isCorrect": false
+      },
+      {
+        "text": "<music>",
+        "isCorrect": false
+      },
+      {
+        "text": "<media>",
+        "isCorrect": false
+      }
+    ]
+  }
+]

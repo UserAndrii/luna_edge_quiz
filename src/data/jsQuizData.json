@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "question": "What is JavaScript?",
+    "answers": [
+      {
+        "text": "A programming language",
+        "isCorrect": true
+      },
+      {
+        "text": "A database",
+        "isCorrect": false
+      },
+      {
+        "text": "An operating system",
+        "isCorrect": false
+      },
+      {
+        "text": "A text editor",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Which company developed JavaScript?",
+    "answers": [
+      {
+        "text": "Netscape",
+        "isCorrect": true
+      },
+      {
+        "text": "Microsoft",
+        "isCorrect": false
+      },
+      {
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "text": "Apple",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which symbol is used for comments in JavaScript?",
+    "answers": [
+      {
+        "text": "//",
+        "isCorrect": true
+      },
+      {
+        "text": "/* */",
+        "isCorrect": true
+      },
+      {
+        "text": "#",
+        "isCorrect": false
+      },
+      {
+        "text": "<!-- -->",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "How do you declare a variable in JavaScript?",
+    "answers": [
+      {
+        "text": "var, let, const",
+        "isCorrect": true
+      },
+      {
+        "text": "int, float, char",
+        "isCorrect": false
+      },
+      {
+        "text": "declare, define, assign",
+        "isCorrect": false
+      },
+      {
+        "text": "variable, constant, value",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the output of 'typeof null' in JavaScript?",
+    "answers": [
+      {
+        "text": "object",
+        "isCorrect": true
+      },
+      {
+        "text": "null",
+        "isCorrect": false
+      },
+      {
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "text": "boolean",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which method is used to add elements to the end of an array in JavaScript?",
+    "answers": [
+      {
+        "text": "push()",
+        "isCorrect": true
+      },
+      {
+        "text": "pop()",
+        "isCorrect": false
+      },
+      {
+        "text": "shift()",
+        "isCorrect": false
+      },
+      {
+        "text": "unshift()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What does '=== 'operator mean in JavaScript?",
+    "answers": [
+      {
+        "text": "Strict equality",
+        "isCorrect": true
+      },
+      {
+        "text": "Assignment",
+        "isCorrect": false
+      },
+      {
+        "text": "Loose equality",
+        "isCorrect": false
+      },
+      {
+        "text": "Comparison",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is 'hoisting' in JavaScript?",
+    "answers": [
+      {
+        "text": "Default behavior of moving declarations to the top",
+        "isCorrect": true
+      },
+      {
+        "text": "Function invocation before declaration",
+        "isCorrect": false
+      },
+      {
+        "text": "Variable initialization at the bottom",
+        "isCorrect": false
+      },
+      {
+        "text": "Automatic memory allocation",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is a 'closure' in JavaScript?",
+    "answers": [
+      {
+        "text": "A function having access to its own scope, the outer function's scope, and the global scope",
+        "isCorrect": true
+      },
+      {
+        "text": "A function returning another function",
+        "isCorrect": false
+      },
+      {
+        "text": "A block of code that can be executed repeatedly",
+        "isCorrect": false
+      },
+      {
+        "text": "A feature to encapsulate the module",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What will 'console.log([] + [])' output in JavaScript?",
+    "answers": [
+      {
+        "text": "An empty string",
+        "isCorrect": true
+      },
+      {
+        "text": "[]",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "isCorrect": false
+      },
+      {
+        "text": "undefined",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is the difference between 'let' and 'var'?",
+    "answers": [
+      {
+        "text": "'let' is block-scoped while 'var' is function-scoped",
+        "isCorrect": true
+      },
+      {
+        "text": "'var' is block-scoped while 'let' is function-scoped",
+        "isCorrect": false
+      },
+      {
+        "text": "Both are block-scoped",
+        "isCorrect": false
+      },
+      {
+        "text": "Both are function-scoped",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Which function converts a JSON string to a JavaScript object?",
+    "answers": [
+      {
+        "text": "JSON.parse()",
+        "isCorrect": true
+      },
+      {
+        "text": "JSON.stringify()",
+        "isCorrect": false
+      },
+      {
+        "text": "JSON.toObject()",
+        "isCorrect": false
+      },
+      {
+        "text": "JSON.convert()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "answers": [
+      {
+        "text": "To enforce stricter parsing and error handling in code",
+        "isCorrect": true
+      },
+      {
+        "text": "To declare variables as constants",
+        "isCorrect": false
+      },
+      {
+        "text": "To enable ES6 features",
+        "isCorrect": false
+      },
+      {
+        "text": "To prevent memory leaks",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is the purpose of the 'async' keyword in JavaScript?",
+    "answers": [
+      {
+        "text": "To declare an asynchronous function",
+        "isCorrect": true
+      },
+      {
+        "text": "To declare a synchronous function",
+        "isCorrect": false
+      },
+      {
+        "text": "To create a promise",
+        "isCorrect": false
+      },
+      {
+        "text": "To handle errors",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is a 'Promise' in JavaScript?",
+    "answers": [
+      {
+        "text": "An object representing the eventual completion or failure of an asynchronous operation",
+        "isCorrect": true
+      },
+      {
+        "text": "A function that executes immediately",
+        "isCorrect": false
+      },
+      {
+        "text": "An event handler",
+        "isCorrect": false
+      },
+      {
+        "text": "A loop that runs indefinitely",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Which operator is used to create an instance of an object?",
+    "answers": [
+      {
+        "text": "new",
+        "isCorrect": true
+      },
+      {
+        "text": "instance",
+        "isCorrect": false
+      },
+      {
+        "text": "create",
+        "isCorrect": false
+      },
+      {
+        "text": "object",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Which method is used to iterate over an array?",
+    "answers": [
+      {
+        "text": "forEach()",
+        "isCorrect": true
+      },
+      {
+        "text": "map()",
+        "isCorrect": false
+      },
+      {
+        "text": "filter()",
+        "isCorrect": false
+      },
+      {
+        "text": "reduce()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "How do you check if a value is an array in JavaScript?",
+    "answers": [
+      {
+        "text": "Array.isArray(value)",
+        "isCorrect": true
+      },
+      {
+        "text": "typeof value === 'array'",
+        "isCorrect": false
+      },
+      {
+        "text": "value instanceOf Array",
+        "isCorrect": false
+      },
+      {
+        "text": "value.constructor === Array",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "What is the output of 'console.log(typeof NaN)'?",
+    "answers": [
+      {
+        "text": "number",
+        "isCorrect": true
+      },
+      {
+        "text": "NaN",
+        "isCorrect": false
+      },
+      {
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "text": "object",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Which method is used to remove the last element from an array?",
+    "answers": [
+      {
+        "text": "pop()",
+        "isCorrect": true
+      },
+      {
+        "text": "push()",
+        "isCorrect": false
+      },
+      {
+        "text": "shift()",
+        "isCorrect": false
+      },
+      {
+        "text": "unshift()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What is the result of '0.1 + 0.2 === 0.3' in JavaScript?",
+    "answers": [
+      {
+        "text": "false",
+        "isCorrect": true
+      },
+      {
+        "text": "true",
+        "isCorrect": false
+      },
+      {
+        "text": "undefined",
+        "isCorrect": false
+      },
+      {
+        "text": "NaN",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What is the use of the 'bind' method in JavaScript?",
+    "answers": [
+      {
+        "text": "To create a new function with a specified 'this' value",
+        "isCorrect": true
+      },
+      {
+        "text": "To invoke a function immediately",
+        "isCorrect": false
+      },
+      {
+        "text": "To iterate over an array",
+        "isCorrect": false
+      },
+      {
+        "text": "To handle events",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "How do you define a class in JavaScript?",
+    "answers": [
+      {
+        "text": "Using the 'class' keyword",
+        "isCorrect": true
+      },
+      {
+        "text": "Using the 'function' keyword",
+        "isCorrect": false
+      },
+      {
+        "text": "Using the 'object' keyword",
+        "isCorrect": false
+      },
+      {
+        "text": "Using the 'constructor' keyword",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "What does the 'this' keyword refer to in JavaScript?",
+    "answers": [
+      {
+        "text": "The object from which it was called",
+        "isCorrect": true
+      },
+      {
+        "text": "The global object",
+        "isCorrect": false
+      },
+      {
+        "text": "The parent object",
+        "isCorrect": false
+      },
+      {
+        "text": "The DOM element",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "What is the purpose of the 'rest' parameter in JavaScript?",
+    "answers": [
+      {
+        "text": "To represent an indefinite number of arguments as an array",
+        "isCorrect": true
+      },
+      {
+        "text": "To rest the code execution",
+        "isCorrect": false
+      },
+      {
+        "text": "To handle errors",
+        "isCorrect": false
+      },
+      {
+        "text": "To bind a function",
+        "isCorrect": false
+      }
+    ]
+  }
+]

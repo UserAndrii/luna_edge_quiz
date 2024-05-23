@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "question": "What is Next.js?",
+    "answers": [
+      {
+        "text": "A framework for building server-side rendered React applications",
+        "isCorrect": true
+      },
+      {
+        "text": "A library for state management",
+        "isCorrect": false
+      },
+      {
+        "text": "A CSS framework",
+        "isCorrect": false
+      },
+      {
+        "text": "A database management tool",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Who developed Next.js?",
+    "answers": [
+      {
+        "text": "Facebook",
+        "isCorrect": false
+      },
+      {
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "text": "Vercel",
+        "isCorrect": true
+      },
+      {
+        "text": "Microsoft",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What command is used to create a new Next.js project?",
+    "answers": [
+      {
+        "text": "npx create-next-app",
+        "isCorrect": true
+      },
+      {
+        "text": "npx create-react-app",
+        "isCorrect": false
+      },
+      {
+        "text": "npm init next-app",
+        "isCorrect": false
+      },
+      {
+        "text": "next init",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What file is used to define custom server configuration in Next.js?",
+    "answers": [
+      {
+        "text": "server.js",
+        "isCorrect": true
+      },
+      {
+        "text": "next.config.js",
+        "isCorrect": false
+      },
+      {
+        "text": "server.config.js",
+        "isCorrect": false
+      },
+      {
+        "text": "custom-server.js",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is a feature of Next.js?",
+    "answers": [
+      {
+        "text": "Server-side rendering",
+        "isCorrect": true
+      },
+      {
+        "text": "Global state management",
+        "isCorrect": false
+      },
+      {
+        "text": "CSS-in-JS",
+        "isCorrect": false
+      },
+      {
+        "text": "Database migrations",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which method is used to define static paths for dynamic routes in Next.js?",
+    "answers": [
+      {
+        "text": "getStaticPaths",
+        "isCorrect": true
+      },
+      {
+        "text": "getStaticProps",
+        "isCorrect": false
+      },
+      {
+        "text": "getServerSideProps",
+        "isCorrect": false
+      },
+      {
+        "text": "getInitialProps",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Which hook can be used to perform data fetching in a component in Next.js?",
+    "answers": [
+      {
+        "text": "useEffect",
+        "isCorrect": true
+      },
+      {
+        "text": "useFetch",
+        "isCorrect": false
+      },
+      {
+        "text": "useData",
+        "isCorrect": false
+      },
+      {
+        "text": "useAsync",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "How can you enable static site generation (SSG) in Next.js?",
+    "answers": [
+      {
+        "text": "Using getStaticProps",
+        "isCorrect": true
+      },
+      {
+        "text": "Using getServerSideProps",
+        "isCorrect": false
+      },
+      {
+        "text": "Using getInitialProps",
+        "isCorrect": false
+      },
+      {
+        "text": "Using useStaticProps",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is the default port for a Next.js application?",
+    "answers": [
+      {
+        "text": "3000",
+        "isCorrect": true
+      },
+      {
+        "text": "8000",
+        "isCorrect": false
+      },
+      {
+        "text": "8080",
+        "isCorrect": false
+      },
+      {
+        "text": "5000",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "How do you navigate between pages in a Next.js application?",
+    "answers": [
+      {
+        "text": "Using the Link component from 'next/link'",
+        "isCorrect": true
+      },
+      {
+        "text": "Using window.location",
+        "isCorrect": false
+      },
+      {
+        "text": "Using the Nav component from 'next/nav'",
+        "isCorrect": false
+      },
+      {
+        "text": "Using the Router component from 'next/router'",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Which function is used to fetch data at request time in Next.js?",
+    "answers": [
+      {
+        "text": "getServerSideProps",
+        "isCorrect": true
+      },
+      {
+        "text": "getStaticProps",
+        "isCorrect": false
+      },
+      {
+        "text": "getInitialProps",
+        "isCorrect": false
+      },
+      {
+        "text": "useEffect",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "How do you define API routes in a Next.js application?",
+    "answers": [
+      {
+        "text": "In the pages/api directory",
+        "isCorrect": true
+      },
+      {
+        "text": "In the api directory",
+        "isCorrect": false
+      },
+      {
+        "text": "In the services directory",
+        "isCorrect": false
+      },
+      {
+        "text": "In the lib directory",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Which command starts the development server in a Next.js project?",
+    "answers": [
+      {
+        "text": "npm run dev",
+        "isCorrect": true
+      },
+      {
+        "text": "npm start",
+        "isCorrect": false
+      },
+      {
+        "text": "npm run start",
+        "isCorrect": false
+      },
+      {
+        "text": "npm develop",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Which feature allows you to perform incremental static regeneration in Next.js?",
+    "answers": [
+      {
+        "text": "revalidate",
+        "isCorrect": true
+      },
+      {
+        "text": "regenerate",
+        "isCorrect": false
+      },
+      {
+        "text": "rebuild",
+        "isCorrect": false
+      },
+      {
+        "text": "refresh",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of the _app.js file in a Next.js project?",
+    "answers": [
+      {
+        "text": "To customize the App component that initializes every page",
+        "isCorrect": true
+      },
+      {
+        "text": "To define API routes",
+        "isCorrect": false
+      },
+      {
+        "text": "To configure server settings",
+        "isCorrect": false
+      },
+      {
+        "text": "To handle database connections",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "How do you enable CSS modules in a Next.js project?",
+    "answers": [
+      {
+        "text": "By using the .module.css extension",
+        "isCorrect": true
+      },
+      {
+        "text": "By importing CSS files normally",
+        "isCorrect": false
+      },
+      {
+        "text": "By configuring next.config.js",
+        "isCorrect": false
+      },
+      {
+        "text": "By using styled-components",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "How can you optimize images in a Next.js project?",
+    "answers": [
+      {
+        "text": "Using the Image component from 'next/image'",
+        "isCorrect": true
+      },
+      {
+        "text": "Using the img tag",
+        "isCorrect": false
+      },
+      {
+        "text": "Using a third-party library",
+        "isCorrect": false
+      },
+      {
+        "text": "Using the picture tag",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "What is the default export of a Next.js page?",
+    "answers": [
+      {
+        "text": "A React component",
+        "isCorrect": true
+      },
+      {
+        "text": "A function",
+        "isCorrect": false
+      },
+      {
+        "text": "An object",
+        "isCorrect": false
+      },
+      {
+        "text": "A string",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "How do you handle 404 errors in Next.js?",
+    "answers": [
+      {
+        "text": "By creating a 404.js file in the pages directory",
+        "isCorrect": true
+      },
+      {
+        "text": "By creating a 404.js file in the api directory",
+        "isCorrect": false
+      },
+      {
+        "text": "By setting a 404 route in next.config.js",
+        "isCorrect": false
+      },
+      {
+        "text": "By using a 404 component",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Which of the following is true about Next.js?",
+    "answers": [
+      {
+        "text": "It supports both server-side rendering and static site generation",
+        "isCorrect": true
+      },
+      {
+        "text": "It only supports client-side rendering",
+        "isCorrect": false
+      },
+      {
+        "text": "It does not support API routes",
+        "isCorrect": false
+      },
+      {
+        "text": "It is a backend framework",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "What is the use of next/head?",
+    "answers": [
+      {
+        "text": "To modify the head of the document",
+        "isCorrect": true
+      },
+      {
+        "text": "To manage global state",
+        "isCorrect": false
+      },
+      {
+        "text": "To configure server settings",
+        "isCorrect": false
+      },
+      {
+        "text": "To define API routes",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What is the purpose of the next.config.js file?",
+    "answers": [
+      {
+        "text": "To configure settings and customizations for a Next.js project",
+        "isCorrect": true
+      },
+      {
+        "text": "To define React components",
+        "isCorrect": false
+      },
+      {
+        "text": "To manage state",
+        "isCorrect": false
+      },
+      {
+        "text": "To handle database connections",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "How do you create dynamic routes in Next.js?",
+    "answers": [
+      {
+        "text": "By using square brackets in the file name inside the pages directory",
+        "isCorrect": true
+      },
+      {
+        "text": "By defining routes in next.config.js",
+        "isCorrect": false
+      },
+      {
+        "text": "By using the Route component",
+        "isCorrect": false
+      },
+      {
+        "text": "By creating routes in the api directory",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Which Next.js feature supports preview mode?",
+    "answers": [
+      {
+        "text": "getStaticProps with revalidate option",
+        "isCorrect": true
+      },
+      {
+        "text": "getServerSideProps",
+        "isCorrect": false
+      },
+      {
+        "text": "getInitialProps",
+        "isCorrect": false
+      },
+      {
+        "text": "useEffect",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "Which command is used to build a Next.js application for production?",
+    "answers": [
+      {
+        "text": "npm run build",
+        "isCorrect": true
+      },
+      {
+        "text": "npm build",
+        "isCorrect": false
+      },
+      {
+        "text": "npm run start",
+        "isCorrect": false
+      },
+      {
+        "text": "npm run production",
+        "isCorrect": false
+      }
+    ]
+  }
+]
