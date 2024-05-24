@@ -4,11 +4,7 @@ import js from '../images/js.webp';
 import react from '../images/react.webp';
 import next from '../images/next.webp';
 
-export interface ICategoryData {
-  id: number;
-  category: string;
-  img: string;
-}
+import { ICategoryData } from '../types';
 
 export const categoriesData: ICategoryData[] = [
   { id: 1, category: 'html', img: html },
