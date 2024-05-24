@@ -14,6 +14,7 @@ export const Layout: FC<LayoutProps> = ({ children }) => (
     <Header />
     <main>{children}</main>
     <Footer />
+
     <ToastContainer
       position='top-right'
       autoClose={2500}
