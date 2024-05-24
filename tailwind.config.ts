@@ -2,9 +2,10 @@ import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/layouts/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/sections/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
   ],
 
   theme: {
@@ -38,11 +39,12 @@ const config: Config = {
 
       fontSize: {
         small: ['14px', '1.5'],
-        normal: ['16px', '1.5'],
-        large: ['18px', '1.5'],
+        normal: ['18px', '1.5'],
+        large: ['32px', '1.5'],
       },
     },
   },
   plugins: [],
 };
+
 export default config;

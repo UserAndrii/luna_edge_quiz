@@ -6,6 +6,12 @@
 
 @layer base {
   body {
-    @apply font-geologica text-normal;
+    @apply bg-bg2 font-geologica text-normal;
+  }
+}
+
+@layer utilities {
+  .transition {
+    @apply transition-all duration-300 ease-in-out;
   }
 }
