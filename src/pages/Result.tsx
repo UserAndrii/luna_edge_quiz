@@ -23,6 +23,7 @@ export const Result: FC<ResultProps> = () => {
 
   const [resultSum, setResultSum] = useState(0);
   const [showAnswers, setShowAnswers] = useState(false);
+  const [showCorrectAnswers, setShowCorrectAnswers] = useState(false);
 
   const {
     message: { quiz, answers: getAnswers },
@@ -48,15 +49,17 @@ export const Result: FC<ResultProps> = () => {
 
       <ResultCircle total={quiz.length} correct={resultSum} />
 
-      {showAnswers && <QuizAnswerList selected={getAnswers} quiz={quiz} />}
-
-      <div className='flex justify-center gap-6'>
-        <Button
-          className='flex text-normal normal-case'
-          onClick={() => setShowAnswers(prev => !prev)}
-        >
-          {!showAnswers ? 'Show my answers' : 'Hide my answers'}
-        </Button>
+      <div className='flex justify-center gap-6 mb-6'>
+        {showAnswers && (
+          <Button
+            className='flex items-center justify-center gap-2 text-normal normal-case'
+            onClick={() => setShowCorrectAnswers(prev => !prev)}
+          >
+            {!showCorrectAnswers
+              ? 'Show me the correct answers'
+              : 'Hide the correct answers'}
+          </Button>
+        )}
 
         <Button
           className='flex items-center justify-center gap-2 text-normal normal-case'
@@ -66,6 +69,21 @@ export const Result: FC<ResultProps> = () => {
           <FaArrowRightLong />
         </Button>
       </div>
+
+      {showAnswers && (
+        <QuizAnswerList
+          selected={getAnswers}
+          quiz={quiz}
+          showCorrectAnswers={showCorrectAnswers}
+        />
+      )}
+
+      <Button
+        className='flex text-normal normal-case mx-auto'
+        onClick={() => setShowAnswers(prev => !prev)}
+      >
+        {!showAnswers ? 'Show my answers' : 'Hide my answers'}
+      </Button>
     </section>
   );
 };

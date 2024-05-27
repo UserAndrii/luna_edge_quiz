@@ -5,7 +5,7 @@ import logo from '../images/logo.webp';
 export const Footer: FC = () => (
   <footer className='container grid h-full items-center justify-center gap-6 p-5 md:grid-cols-2'>
     <a
-      href='/'
+      href='/luna_edge_quiz'
       aria-label='Logo, link to the main page'
       className='flex items-center justify-center'
     >

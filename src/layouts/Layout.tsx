@@ -1,18 +1,20 @@
 import 'react-toastify/dist/ReactToastify.min.css';
 
-import { FC, ReactNode } from 'react';
+import { FC, Suspense } from 'react';
+import { Outlet } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 
 import { Footer, Header } from '../sections';
 
-export interface LayoutProps {
-  children: ReactNode;
-}
-
-export const Layout: FC<LayoutProps> = ({ children }) => (
+export const Layout: FC = () => (
   <div className='flex min-h-screen flex-col'>
     <Header />
-    <main className='flex-auto'>{children}</main>
+
+    <main className='flex-auto'>
+      <Suspense fallback={'Loading....'}>
+        <Outlet />
+      </Suspense>
+    </main>
     <Footer />
 
     <ToastContainer

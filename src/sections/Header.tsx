@@ -6,7 +6,7 @@ export const Header: FC = () => (
   <header>
     <div className='container h-full p-5'>
       <a
-        href='/'
+        href='/luna_edge_quiz'
         aria-label='Logo, link to the main page'
         className='flex items-center justify-center'
       >

@@ -11,6 +11,7 @@ export interface IQuizAnswerProps {
   labelStyle?: string;
   disabled?: boolean;
   isCorrect?: boolean;
+  showCorrectAnswers?: boolean;
 }
 
 export const QuizAnswer: FC<IQuizAnswerProps> = ({
@@ -22,15 +23,16 @@ export const QuizAnswer: FC<IQuizAnswerProps> = ({
   labelStyle,
   disabled = false,
   isCorrect,
+  showCorrectAnswers,
 }) => {
   const { pathname } = useLocation();
 
   return (
     <div
       className={clsx('flex items-center rounded bg-gray-200 px-3', itemStyle, {
-        'bg-yellow-600': selected === text,
         'bg-green-400':
-          selected === text && isCorrect && pathname === '/result',
+          (isCorrect && showCorrectAnswers) ||
+          (selected === text && isCorrect && pathname === '/result'),
         'bg-red-400': selected === text && !isCorrect && pathname === '/result',
       })}
     >

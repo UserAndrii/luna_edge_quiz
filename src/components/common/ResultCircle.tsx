@@ -51,9 +51,9 @@ export const ResultCircle: FC<IResultCircleProps> = ({ total, correct }) => {
           className={clsx(
             'absolute inset-0 flex items-center justify-center text-large',
             {
-              'text-red-400': percentage <= 50,
-              'text-yellow-600': percentage <= 75,
-              'text-green-400': percentage <= 90,
+              'text-green-400': percentage > 90,
+              'text-yellow-400': percentage >= 50 && percentage <= 90,
+              'text-red-400': percentage < 50,
             },
           )}
         >{`${Math.round(percentage)}%`}</p>

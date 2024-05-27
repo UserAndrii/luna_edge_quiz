@@ -1,5 +1,6 @@
 import { FC, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { clsx } from 'clsx';
 import { FaArrowRightLong } from 'react-icons/fa6';
 
 import { Button } from '../ui';
@@ -57,6 +58,7 @@ export const QuizList: FC<IQuizListProps> = ({
                   index={index}
                   selected={selected}
                   onChange={e => setSelected(e.target.value)}
+                  itemStyle={clsx({ 'bg-yellow-600': selected === text })}
                 />
               </li>
             ))}

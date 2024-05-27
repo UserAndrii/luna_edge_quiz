@@ -7,11 +7,13 @@ import { IQuiz } from '../../types';
 export interface IQuizAnswerListProps {
   quiz: IQuiz[];
   selected: string[];
+  showCorrectAnswers: boolean
 }
 
 export const QuizAnswerList: FC<IQuizAnswerListProps> = ({
   quiz,
   selected,
+  showCorrectAnswers
 }) => {
   return (
     <ul className='flex flex-col gap-8 py-8'>
@@ -30,6 +32,7 @@ export const QuizAnswerList: FC<IQuizAnswerListProps> = ({
                     selected.find((a, i) => a === text && i + 1 === id) || ''
                   }
                   isCorrect={isCorrect}
+                  showCorrectAnswers={showCorrectAnswers}
                 />
               </li>
             ))}
