@@ -47,7 +47,7 @@ export const QuizList: FC<IQuizListProps> = ({
             Question: <span>{index + 1}</span> of <span>{quiz.length}</span>
           </p>
 
-          <h2>{quiz[index].question}</h2>
+          <h2 className='min-h-16'>{quiz[index].question}</h2>
 
           <ul className='grid gap-4 md:grid-cols-2'>
             {quiz[index].answers.map(({ text }, index) => (
@@ -79,7 +79,7 @@ export const QuizList: FC<IQuizListProps> = ({
         </Button>
       ) : (
         <Button
-          className='flex h-[44px] w-52 cursor-pointer items-center justify-center gap-3 text-sm capitalize disabled:cursor-not-allowed disabled:bg-slate-400'
+          className='mx-auto flex h-[44px] w-52 cursor-pointer items-center justify-center gap-3 text-sm capitalize disabled:cursor-not-allowed disabled:bg-slate-400'
           onClick={() =>
             navigate('/result', { state: { message: { quiz, answers } } })
           }

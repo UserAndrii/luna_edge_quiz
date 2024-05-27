@@ -49,10 +49,10 @@ export const Result: FC<ResultProps> = () => {
 
       <ResultCircle total={quiz.length} correct={resultSum} />
 
-      <div className='flex justify-center gap-6 mb-6'>
+      <div className='mb-6 flex flex-col justify-center gap-6 md:flex-row items-center'>
         {showAnswers && (
           <Button
-            className='flex items-center justify-center gap-2 text-normal normal-case'
+            className='flex w-max items-center justify-center gap-2 text-normal normal-case'
             onClick={() => setShowCorrectAnswers(prev => !prev)}
           >
             {!showCorrectAnswers
@@ -62,7 +62,7 @@ export const Result: FC<ResultProps> = () => {
         )}
 
         <Button
-          className='flex items-center justify-center gap-2 text-normal normal-case'
+          className='flex w-max items-center justify-center gap-2 text-normal normal-case'
           onClick={() => navigate('/')}
         >
           Go Home
@@ -79,7 +79,7 @@ export const Result: FC<ResultProps> = () => {
       )}
 
       <Button
-        className='flex text-normal normal-case mx-auto'
+        className='mx-auto flex text-normal normal-case'
         onClick={() => setShowAnswers(prev => !prev)}
       >
         {!showAnswers ? 'Show my answers' : 'Hide my answers'}
