@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { getAllQuizesName } from './operations';
-
-import { ICategoryData } from '../types';
+import { getAllQuizesName, getQuizTheme } from './operations';
+import { handlePending, handleRejected } from '../utils';
+import { ICategoryData, IQuizesData } from '../types';
 
 export interface IQiuzesState {
   quizesName: ICategoryData[];
-  quizes: [];
+  quizes: IQuizesData[];
   isLoading: boolean;
   error: unknown;
 }
@@ -32,20 +32,19 @@ const quizesSlice = createSlice({
         state.isLoading = false;
         state.error = null;
       })
-      .addCase(getAllQuizesName.rejected, handleRejected);
+      .addCase(getAllQuizesName.rejected, handleRejected)
+
+      .addCase(getQuizTheme.pending, handlePending)
+      .addCase(getQuizTheme.fulfilled, (state, action) => {
+        const isExisting = state.quizes.some(
+          item => item.thema === action.payload.thema,
+        );
+        if (!isExisting) state.quizes.push(action.payload);
+        state.isLoading = false;
+        state.error = null;
+      })
+      .addCase(getQuizTheme.rejected, handleRejected);
   },
 });
-
-function handlePending(state: { isLoading: boolean }) {
-  state.isLoading = true;
-}
-
-function handleRejected(
-  state: { isLoading: boolean; error: unknown },
-  action: { payload: unknown },
-) {
-  state.isLoading = false;
-  state.error = action.payload;
-}
 
 export const quizes = quizesSlice.reducer;

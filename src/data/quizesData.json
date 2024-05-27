@@ -1,0 +1,2782 @@
+[
+  {
+    "id": 1,
+    "thema": "html",
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What does HTML stand for?",
+        "answers": [
+          {
+            "text": "Hyper Text Markup Language",
+            "isCorrect": true
+          },
+          {
+            "text": "Home Tool Markup Language",
+            "isCorrect": false
+          },
+          {
+            "text": "Hyperlinks and Text Markup Language",
+            "isCorrect": false
+          },
+          {
+            "text": "Hyperlinking Text Marking Language",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "What is the purpose of the <head> section in an HTML document?",
+        "answers": [
+          {
+            "text": "To contain meta-information about the document",
+            "isCorrect": true
+          },
+          {
+            "text": "To contain the main content of the document",
+            "isCorrect": false
+          },
+          {
+            "text": "To contain the document's title and body",
+            "isCorrect": false
+          },
+          {
+            "text": "To contain JavaScript code",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Which HTML element is used to define a paragraph?",
+        "answers": [
+          {
+            "text": "<p>",
+            "isCorrect": true
+          },
+          {
+            "text": "<para>",
+            "isCorrect": false
+          },
+          {
+            "text": "<par>",
+            "isCorrect": false
+          },
+          {
+            "text": "<paragraph>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "How do you create a hyperlink in HTML?",
+        "answers": [
+          {
+            "text": "<a href='url'>Link text</a>",
+            "isCorrect": true
+          },
+          {
+            "text": "<link url='url'>Link text</link>",
+            "isCorrect": false
+          },
+          {
+            "text": "<a>Link text</a>",
+            "isCorrect": false
+          },
+          {
+            "text": "<href url='url'>Link text</href>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "What is the correct HTML element for inserting a line break?",
+        "answers": [
+          {
+            "text": "<br>",
+            "isCorrect": true
+          },
+          {
+            "text": "<break>",
+            "isCorrect": false
+          },
+          {
+            "text": "<lb>",
+            "isCorrect": false
+          },
+          {
+            "text": "<newline>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Which HTML element is used to define an unordered list?",
+        "answers": [
+          {
+            "text": "<ul>",
+            "isCorrect": true
+          },
+          {
+            "text": "<ol>",
+            "isCorrect": false
+          },
+          {
+            "text": "<list>",
+            "isCorrect": false
+          },
+          {
+            "text": "<li>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "What is the correct HTML element for the largest heading?",
+        "answers": [
+          {
+            "text": "<h1>",
+            "isCorrect": true
+          },
+          {
+            "text": "<heading>",
+            "isCorrect": false
+          },
+          {
+            "text": "<h6>",
+            "isCorrect": false
+          },
+          {
+            "text": "<head>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Which HTML attribute is used to define inline styles?",
+        "answers": [
+          {
+            "text": "style",
+            "isCorrect": true
+          },
+          {
+            "text": "class",
+            "isCorrect": false
+          },
+          {
+            "text": "styles",
+            "isCorrect": false
+          },
+          {
+            "text": "font",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Which HTML element is used to specify a footer for a document or section?",
+        "answers": [
+          {
+            "text": "<footer>",
+            "isCorrect": true
+          },
+          {
+            "text": "<bottom>",
+            "isCorrect": false
+          },
+          {
+            "text": "<section>",
+            "isCorrect": false
+          },
+          {
+            "text": "<foot>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "How can you open a link in a new tab/browser window?",
+        "answers": [
+          {
+            "text": "target='_blank'",
+            "isCorrect": true
+          },
+          {
+            "text": "target='_new'",
+            "isCorrect": false
+          },
+          {
+            "text": "target='new_tab'",
+            "isCorrect": false
+          },
+          {
+            "text": "target='new'",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Which HTML element is used to define important text?",
+        "answers": [
+          {
+            "text": "<strong>",
+            "isCorrect": true
+          },
+          {
+            "text": "<b>",
+            "isCorrect": false
+          },
+          {
+            "text": "<i>",
+            "isCorrect": false
+          },
+          {
+            "text": "<important>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "How do you create a checkbox in HTML?",
+        "answers": [
+          {
+            "text": "<input type='checkbox'>",
+            "isCorrect": true
+          },
+          {
+            "text": "<checkbox>",
+            "isCorrect": false
+          },
+          {
+            "text": "<input type='check'>",
+            "isCorrect": false
+          },
+          {
+            "text": "<input type='box'>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Which attribute is used to specify an alternate text for an image, if the image cannot be displayed?",
+        "answers": [
+          {
+            "text": "alt",
+            "isCorrect": true
+          },
+          {
+            "text": "title",
+            "isCorrect": false
+          },
+          {
+            "text": "src",
+            "isCorrect": false
+          },
+          {
+            "text": "href",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "How do you make a numbered list in HTML?",
+        "answers": [
+          {
+            "text": "<ol>",
+            "isCorrect": true
+          },
+          {
+            "text": "<ul>",
+            "isCorrect": false
+          },
+          {
+            "text": "<list>",
+            "isCorrect": false
+          },
+          {
+            "text": "<dl>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "What is the correct HTML for making a text input field?",
+        "answers": [
+          {
+            "text": "<input type='text'>",
+            "isCorrect": true
+          },
+          {
+            "text": "<input type='textfield'>",
+            "isCorrect": false
+          },
+          {
+            "text": "<textinput>",
+            "isCorrect": false
+          },
+          {
+            "text": "<textfield>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question": "Which HTML attribute specifies a unique identifier for an element?",
+        "answers": [
+          {
+            "text": "id",
+            "isCorrect": true
+          },
+          {
+            "text": "class",
+            "isCorrect": false
+          },
+          {
+            "text": "key",
+            "isCorrect": false
+          },
+          {
+            "text": "ref",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "How can you make a bulleted list?",
+        "answers": [
+          {
+            "text": "<ul>",
+            "isCorrect": true
+          },
+          {
+            "text": "<ol>",
+            "isCorrect": false
+          },
+          {
+            "text": "<dl>",
+            "isCorrect": false
+          },
+          {
+            "text": "<list>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "What is the correct HTML for inserting an image?",
+        "answers": [
+          {
+            "text": "<img src='image.jpg' alt='Description'>",
+            "isCorrect": true
+          },
+          {
+            "text": "<image src='image.jpg' alt='Description'>",
+            "isCorrect": false
+          },
+          {
+            "text": "<img alt='Description'>image.jpg</img>",
+            "isCorrect": false
+          },
+          {
+            "text": "<img href='image.jpg' alt='Description'>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question": "Which element is used for creating a drop-down list?",
+        "answers": [
+          {
+            "text": "<select>",
+            "isCorrect": true
+          },
+          {
+            "text": "<dropdown>",
+            "isCorrect": false
+          },
+          {
+            "text": "<list>",
+            "isCorrect": false
+          },
+          {
+            "text": "<menu>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "How do you define a table in HTML?",
+        "answers": [
+          {
+            "text": "<table>",
+            "isCorrect": true
+          },
+          {
+            "text": "<tbl>",
+            "isCorrect": false
+          },
+          {
+            "text": "<tab>",
+            "isCorrect": false
+          },
+          {
+            "text": "<tb>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question": "Which HTML attribute is used to define inline CSS styles?",
+        "answers": [
+          {
+            "text": "style",
+            "isCorrect": true
+          },
+          {
+            "text": "class",
+            "isCorrect": false
+          },
+          {
+            "text": "font",
+            "isCorrect": false
+          },
+          {
+            "text": "css",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question": "Which element is used to define emphasized text?",
+        "answers": [
+          {
+            "text": "<em>",
+            "isCorrect": true
+          },
+          {
+            "text": "<i>",
+            "isCorrect": false
+          },
+          {
+            "text": "<italic>",
+            "isCorrect": false
+          },
+          {
+            "text": "<strong>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question": "How can you make a comment in HTML?",
+        "answers": [
+          {
+            "text": "<!-- Comment -->",
+            "isCorrect": true
+          },
+          {
+            "text": "// Comment",
+            "isCorrect": false
+          },
+          {
+            "text": "<comment> Comment </comment>",
+            "isCorrect": false
+          },
+          {
+            "text": "' Comment",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question": "Which HTML element is used to specify a header for a document or section?",
+        "answers": [
+          {
+            "text": "<header>",
+            "isCorrect": true
+          },
+          {
+            "text": "<head>",
+            "isCorrect": false
+          },
+          {
+            "text": "<section>",
+            "isCorrect": false
+          },
+          {
+            "text": "<top>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question": "Which HTML element is used to play audio files?",
+        "answers": [
+          {
+            "text": "<audio>",
+            "isCorrect": true
+          },
+          {
+            "text": "<sound>",
+            "isCorrect": false
+          },
+          {
+            "text": "<music>",
+            "isCorrect": false
+          },
+          {
+            "text": "<media>",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "thema": "css",
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What does CSS stand for?",
+        "answers": [
+          {
+            "text": "Cascading Style Sheets",
+            "isCorrect": true
+          },
+          {
+            "text": "Creative Style Sheets",
+            "isCorrect": false
+          },
+          {
+            "text": "Computer Style Sheets",
+            "isCorrect": false
+          },
+          {
+            "text": "Colorful Style Sheets",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+        "answers": [
+          {
+            "text": "In the <head> section",
+            "isCorrect": true
+          },
+          {
+            "text": "At the end of the document",
+            "isCorrect": false
+          },
+          {
+            "text": "In the <body> section",
+            "isCorrect": false
+          },
+          {
+            "text": "After the <html> tag",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Which HTML tag is used to define an internal style sheet?",
+        "answers": [
+          {
+            "text": "<style>",
+            "isCorrect": true
+          },
+          {
+            "text": "<css>",
+            "isCorrect": false
+          },
+          {
+            "text": "<script>",
+            "isCorrect": false
+          },
+          {
+            "text": "<link>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Which is the correct CSS syntax?",
+        "answers": [
+          {
+            "text": "body {color: black;}",
+            "isCorrect": true
+          },
+          {
+            "text": "{body;color:black;}",
+            "isCorrect": false
+          },
+          {
+            "text": "body:color=black;",
+            "isCorrect": false
+          },
+          {
+            "text": "{body:color=black;}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "How do you insert a comment in a CSS file?",
+        "answers": [
+          {
+            "text": "/* this is a comment */",
+            "isCorrect": true
+          },
+          {
+            "text": "// this is a comment",
+            "isCorrect": false
+          },
+          {
+            "text": "// this is a comment //",
+            "isCorrect": false
+          },
+          {
+            "text": "' this is a comment",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Which property is used to change the background color?",
+        "answers": [
+          {
+            "text": "background-color",
+            "isCorrect": true
+          },
+          {
+            "text": "color",
+            "isCorrect": false
+          },
+          {
+            "text": "bgcolor",
+            "isCorrect": false
+          },
+          {
+            "text": "background",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "How do you add a background color for all <h1> elements?",
+        "answers": [
+          {
+            "text": "h1 {background-color: #ffffff;}",
+            "isCorrect": true
+          },
+          {
+            "text": "all.h1 {background-color: #ffffff;}",
+            "isCorrect": false
+          },
+          {
+            "text": "h1.all {background-color: #ffffff;}",
+            "isCorrect": false
+          },
+          {
+            "text": "h1 {bgcolor: #ffffff;}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Which CSS property is used to change the text color of an element?",
+        "answers": [
+          {
+            "text": "color",
+            "isCorrect": true
+          },
+          {
+            "text": "text-color",
+            "isCorrect": false
+          },
+          {
+            "text": "fgcolor",
+            "isCorrect": false
+          },
+          {
+            "text": "font-color",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Which CSS property controls the text size?",
+        "answers": [
+          {
+            "text": "font-size",
+            "isCorrect": true
+          },
+          {
+            "text": "text-size",
+            "isCorrect": false
+          },
+          {
+            "text": "font-style",
+            "isCorrect": false
+          },
+          {
+            "text": "text-style",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "What is the correct CSS syntax for making all the <p> elements bold?",
+        "answers": [
+          {
+            "text": "p {font-weight: bold;}",
+            "isCorrect": true
+          },
+          {
+            "text": "p {text-size: bold;}",
+            "isCorrect": false
+          },
+          {
+            "text": "p {font: bold;}",
+            "isCorrect": false
+          },
+          {
+            "text": "<p style='text-size: bold;'>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "How do you display hyperlinks without an underline?",
+        "answers": [
+          {
+            "text": "a {text-decoration: none;}",
+            "isCorrect": true
+          },
+          {
+            "text": "a {decoration: no-underline;}",
+            "isCorrect": false
+          },
+          {
+            "text": "a {underline: none;}",
+            "isCorrect": false
+          },
+          {
+            "text": "a {text-decoration: no-underline;}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Which property is used to change the font of an element?",
+        "answers": [
+          {
+            "text": "font-family",
+            "isCorrect": true
+          },
+          {
+            "text": "font-style",
+            "isCorrect": false
+          },
+          {
+            "text": "font-weight",
+            "isCorrect": false
+          },
+          {
+            "text": "font-variant",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "How do you make the text bold?",
+        "answers": [
+          {
+            "text": "font-weight: bold;",
+            "isCorrect": true
+          },
+          {
+            "text": "style: bold;",
+            "isCorrect": false
+          },
+          {
+            "text": "font: bold;",
+            "isCorrect": false
+          },
+          {
+            "text": "text: bold;",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "How do you select an element with id 'demo'?",
+        "answers": [
+          {
+            "text": "#demo",
+            "isCorrect": true
+          },
+          {
+            "text": ".demo",
+            "isCorrect": false
+          },
+          {
+            "text": "demo",
+            "isCorrect": false
+          },
+          {
+            "text": "*demo",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "How do you select elements with class name 'test'?",
+        "answers": [
+          {
+            "text": ".test",
+            "isCorrect": true
+          },
+          {
+            "text": "#test",
+            "isCorrect": false
+          },
+          {
+            "text": "test",
+            "isCorrect": false
+          },
+          {
+            "text": "*test",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question": "How do you group selectors?",
+        "answers": [
+          {
+            "text": "Separate each selector with a comma",
+            "isCorrect": true
+          },
+          {
+            "text": "Separate each selector with a space",
+            "isCorrect": false
+          },
+          {
+            "text": "Separate each selector with a plus sign",
+            "isCorrect": false
+          },
+          {
+            "text": "Separate each selector with a period",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Which pseudo-class is used to define the style for a visited link?",
+        "answers": [
+          {
+            "text": ":visited",
+            "isCorrect": true
+          },
+          {
+            "text": ":link-visited",
+            "isCorrect": false
+          },
+          {
+            "text": ":hover",
+            "isCorrect": false
+          },
+          {
+            "text": ":active",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "How do you make each word in a text start with a capital letter?",
+        "answers": [
+          {
+            "text": "text-transform: capitalize;",
+            "isCorrect": true
+          },
+          {
+            "text": "text-transform: uppercase;",
+            "isCorrect": false
+          },
+          {
+            "text": "text-transform: lowercase;",
+            "isCorrect": false
+          },
+          {
+            "text": "text-transform: initial;",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question": "Which property is used to change the left margin of an element?",
+        "answers": [
+          {
+            "text": "margin-left",
+            "isCorrect": true
+          },
+          {
+            "text": "padding-left",
+            "isCorrect": false
+          },
+          {
+            "text": "indent",
+            "isCorrect": false
+          },
+          {
+            "text": "margin",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "When using the padding property, are you allowed to use negative values?",
+        "answers": [
+          {
+            "text": "No",
+            "isCorrect": true
+          },
+          {
+            "text": "Yes",
+            "isCorrect": false
+          },
+          {
+            "text": "Only with certain elements",
+            "isCorrect": false
+          },
+          {
+            "text": "Only with certain properties",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question": "How do you make a list that lists its items with squares?",
+        "answers": [
+          {
+            "text": "list-style-type: square;",
+            "isCorrect": true
+          },
+          {
+            "text": "list-type: square;",
+            "isCorrect": false
+          },
+          {
+            "text": "type: square;",
+            "isCorrect": false
+          },
+          {
+            "text": "list: square;",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question": "Which property is used to change the font of an element?",
+        "answers": [
+          {
+            "text": "font-family",
+            "isCorrect": true
+          },
+          {
+            "text": "font-style",
+            "isCorrect": false
+          },
+          {
+            "text": "font-variant",
+            "isCorrect": false
+          },
+          {
+            "text": "font-weight",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question": "How do you make the text bold?",
+        "answers": [
+          {
+            "text": "font-weight: bold;",
+            "isCorrect": true
+          },
+          {
+            "text": "font-style: bold;",
+            "isCorrect": false
+          },
+          {
+            "text": "font-variant: bold;",
+            "isCorrect": false
+          },
+          {
+            "text": "font-family: bold;",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question": "How do you display a border like this: The top border = 10 pixels, the bottom border = 5 pixels, the left border = 20 pixels, and the right border = 1pixel?",
+        "answers": [
+          {
+            "text": "border-width: 10px 1px 5px 20px;",
+            "isCorrect": true
+          },
+          {
+            "text": "border-width: 10px 20px 5px 1px;",
+            "isCorrect": false
+          },
+          {
+            "text": "border-width: 10px 5px 20px 1px;",
+            "isCorrect": false
+          },
+          {
+            "text": "border-width: 10px 1px 20px 5px;",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question": "Which property is used to change the background color?",
+        "answers": [
+          {
+            "text": "background-color",
+            "isCorrect": true
+          },
+          {
+            "text": "color",
+            "isCorrect": false
+          },
+          {
+            "text": "bgcolor",
+            "isCorrect": false
+          },
+          {
+            "text": "bg-color",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "thema": "js",
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What is JavaScript?",
+        "answers": [
+          {
+            "text": "A programming language",
+            "isCorrect": true
+          },
+          {
+            "text": "A database",
+            "isCorrect": false
+          },
+          {
+            "text": "An operating system",
+            "isCorrect": false
+          },
+          {
+            "text": "A text editor",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Which company developed JavaScript?",
+        "answers": [
+          {
+            "text": "Netscape",
+            "isCorrect": true
+          },
+          {
+            "text": "Microsoft",
+            "isCorrect": false
+          },
+          {
+            "text": "Google",
+            "isCorrect": false
+          },
+          {
+            "text": "Apple",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Which symbol is used for comments in JavaScript?",
+        "answers": [
+          {
+            "text": "//",
+            "isCorrect": true
+          },
+          {
+            "text": "/* */",
+            "isCorrect": true
+          },
+          {
+            "text": "#",
+            "isCorrect": false
+          },
+          {
+            "text": "<!-- -->",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "How do you declare a variable in JavaScript?",
+        "answers": [
+          {
+            "text": "var, let, const",
+            "isCorrect": true
+          },
+          {
+            "text": "int, float, char",
+            "isCorrect": false
+          },
+          {
+            "text": "declare, define, assign",
+            "isCorrect": false
+          },
+          {
+            "text": "variable, constant, value",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "What is the output of 'typeof null' in JavaScript?",
+        "answers": [
+          {
+            "text": "object",
+            "isCorrect": true
+          },
+          {
+            "text": "null",
+            "isCorrect": false
+          },
+          {
+            "text": "undefined",
+            "isCorrect": false
+          },
+          {
+            "text": "boolean",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Which method is used to add elements to the end of an array in JavaScript?",
+        "answers": [
+          {
+            "text": "push()",
+            "isCorrect": true
+          },
+          {
+            "text": "pop()",
+            "isCorrect": false
+          },
+          {
+            "text": "shift()",
+            "isCorrect": false
+          },
+          {
+            "text": "unshift()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "What does '=== 'operator mean in JavaScript?",
+        "answers": [
+          {
+            "text": "Strict equality",
+            "isCorrect": true
+          },
+          {
+            "text": "Assignment",
+            "isCorrect": false
+          },
+          {
+            "text": "Loose equality",
+            "isCorrect": false
+          },
+          {
+            "text": "Comparison",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "What is 'hoisting' in JavaScript?",
+        "answers": [
+          {
+            "text": "Default behavior of moving declarations to the top",
+            "isCorrect": true
+          },
+          {
+            "text": "Function invocation before declaration",
+            "isCorrect": false
+          },
+          {
+            "text": "Variable initialization at the bottom",
+            "isCorrect": false
+          },
+          {
+            "text": "Automatic memory allocation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "What is a 'closure' in JavaScript?",
+        "answers": [
+          {
+            "text": "A function having access to its own scope, the outer function's scope, and the global scope",
+            "isCorrect": true
+          },
+          {
+            "text": "A function returning another function",
+            "isCorrect": false
+          },
+          {
+            "text": "A block of code that can be executed repeatedly",
+            "isCorrect": false
+          },
+          {
+            "text": "A feature to encapsulate the module",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "What will 'console.log([] + [])' output in JavaScript?",
+        "answers": [
+          {
+            "text": "An empty string",
+            "isCorrect": true
+          },
+          {
+            "text": "[]",
+            "isCorrect": false
+          },
+          {
+            "text": "0",
+            "isCorrect": false
+          },
+          {
+            "text": "undefined",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "What is the difference between 'let' and 'var'?",
+        "answers": [
+          {
+            "text": "'let' is block-scoped while 'var' is function-scoped",
+            "isCorrect": true
+          },
+          {
+            "text": "'var' is block-scoped while 'let' is function-scoped",
+            "isCorrect": false
+          },
+          {
+            "text": "Both are block-scoped",
+            "isCorrect": false
+          },
+          {
+            "text": "Both are function-scoped",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Which function converts a JSON string to a JavaScript object?",
+        "answers": [
+          {
+            "text": "JSON.parse()",
+            "isCorrect": true
+          },
+          {
+            "text": "JSON.stringify()",
+            "isCorrect": false
+          },
+          {
+            "text": "JSON.toObject()",
+            "isCorrect": false
+          },
+          {
+            "text": "JSON.convert()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+        "answers": [
+          {
+            "text": "To enforce stricter parsing and error handling in code",
+            "isCorrect": true
+          },
+          {
+            "text": "To declare variables as constants",
+            "isCorrect": false
+          },
+          {
+            "text": "To enable ES6 features",
+            "isCorrect": false
+          },
+          {
+            "text": "To prevent memory leaks",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "What is the purpose of the 'async' keyword in JavaScript?",
+        "answers": [
+          {
+            "text": "To declare an asynchronous function",
+            "isCorrect": true
+          },
+          {
+            "text": "To declare a synchronous function",
+            "isCorrect": false
+          },
+          {
+            "text": "To create a promise",
+            "isCorrect": false
+          },
+          {
+            "text": "To handle errors",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "What is a 'Promise' in JavaScript?",
+        "answers": [
+          {
+            "text": "An object representing the eventual completion or failure of an asynchronous operation",
+            "isCorrect": true
+          },
+          {
+            "text": "A function that executes immediately",
+            "isCorrect": false
+          },
+          {
+            "text": "An event handler",
+            "isCorrect": false
+          },
+          {
+            "text": "A loop that runs indefinitely",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question": "Which operator is used to create an instance of an object?",
+        "answers": [
+          {
+            "text": "new",
+            "isCorrect": true
+          },
+          {
+            "text": "instance",
+            "isCorrect": false
+          },
+          {
+            "text": "create",
+            "isCorrect": false
+          },
+          {
+            "text": "object",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Which method is used to iterate over an array?",
+        "answers": [
+          {
+            "text": "forEach()",
+            "isCorrect": true
+          },
+          {
+            "text": "map()",
+            "isCorrect": false
+          },
+          {
+            "text": "filter()",
+            "isCorrect": false
+          },
+          {
+            "text": "reduce()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "How do you check if a value is an array in JavaScript?",
+        "answers": [
+          {
+            "text": "Array.isArray(value)",
+            "isCorrect": true
+          },
+          {
+            "text": "typeof value === 'array'",
+            "isCorrect": false
+          },
+          {
+            "text": "value instanceOf Array",
+            "isCorrect": false
+          },
+          {
+            "text": "value.constructor === Array",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question": "What is the output of 'console.log(typeof NaN)'?",
+        "answers": [
+          {
+            "text": "number",
+            "isCorrect": true
+          },
+          {
+            "text": "NaN",
+            "isCorrect": false
+          },
+          {
+            "text": "undefined",
+            "isCorrect": false
+          },
+          {
+            "text": "object",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Which method is used to remove the last element from an array?",
+        "answers": [
+          {
+            "text": "pop()",
+            "isCorrect": true
+          },
+          {
+            "text": "push()",
+            "isCorrect": false
+          },
+          {
+            "text": "shift()",
+            "isCorrect": false
+          },
+          {
+            "text": "unshift()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question": "What is the result of '0.1 + 0.2 === 0.3' in JavaScript?",
+        "answers": [
+          {
+            "text": "false",
+            "isCorrect": true
+          },
+          {
+            "text": "true",
+            "isCorrect": false
+          },
+          {
+            "text": "undefined",
+            "isCorrect": false
+          },
+          {
+            "text": "NaN",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question": "What is the use of the 'bind' method in JavaScript?",
+        "answers": [
+          {
+            "text": "To create a new function with a specified 'this' value",
+            "isCorrect": true
+          },
+          {
+            "text": "To invoke a function immediately",
+            "isCorrect": false
+          },
+          {
+            "text": "To iterate over an array",
+            "isCorrect": false
+          },
+          {
+            "text": "To handle events",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question": "How do you define a class in JavaScript?",
+        "answers": [
+          {
+            "text": "Using the 'class' keyword",
+            "isCorrect": true
+          },
+          {
+            "text": "Using the 'function' keyword",
+            "isCorrect": false
+          },
+          {
+            "text": "Using the 'object' keyword",
+            "isCorrect": false
+          },
+          {
+            "text": "Using the 'constructor' keyword",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question": "What does the 'this' keyword refer to in JavaScript?",
+        "answers": [
+          {
+            "text": "The object from which it was called",
+            "isCorrect": true
+          },
+          {
+            "text": "The global object",
+            "isCorrect": false
+          },
+          {
+            "text": "The parent object",
+            "isCorrect": false
+          },
+          {
+            "text": "The DOM element",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question": "What is the purpose of the 'rest' parameter in JavaScript?",
+        "answers": [
+          {
+            "text": "To represent an indefinite number of arguments as an array",
+            "isCorrect": true
+          },
+          {
+            "text": "To rest the code execution",
+            "isCorrect": false
+          },
+          {
+            "text": "To handle errors",
+            "isCorrect": false
+          },
+          {
+            "text": "To bind a function",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "thema": "react",
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What is React?",
+        "answers": [
+          {
+            "text": "A library for building user interfaces",
+            "isCorrect": true
+          },
+          {
+            "text": "A framework for building websites",
+            "isCorrect": false
+          },
+          {
+            "text": "A programming language",
+            "isCorrect": false
+          },
+          {
+            "text": "An Integrated Development Environment (IDE)",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Who developed React?",
+        "answers": [
+          {
+            "text": "Google",
+            "isCorrect": false
+          },
+          {
+            "text": "Microsoft",
+            "isCorrect": false
+          },
+          {
+            "text": "Facebook",
+            "isCorrect": true
+          },
+          {
+            "text": "Twitter",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "What is JSX?",
+        "answers": [
+          {
+            "text": "A syntax extension for JavaScript",
+            "isCorrect": true
+          },
+          {
+            "text": "A programming language",
+            "isCorrect": false
+          },
+          {
+            "text": "A tool for testing",
+            "isCorrect": false
+          },
+          {
+            "text": "A framework for building mobile apps",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Which method is used to create a component in a class component?",
+        "answers": [
+          {
+            "text": "render()",
+            "isCorrect": true
+          },
+          {
+            "text": "componentDidMount()",
+            "isCorrect": false
+          },
+          {
+            "text": "constructor()",
+            "isCorrect": false
+          },
+          {
+            "text": "componentWillUnmount()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "How do you pass data from a parent component to a child component?",
+        "answers": [
+          {
+            "text": "Using state",
+            "isCorrect": false
+          },
+          {
+            "text": "Using props",
+            "isCorrect": true
+          },
+          {
+            "text": "Using context",
+            "isCorrect": false
+          },
+          {
+            "text": "Using refs",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "What is state in React?",
+        "answers": [
+          {
+            "text": "External data passed to the component",
+            "isCorrect": false
+          },
+          {
+            "text": "The internal data that affects the rendering of the component",
+            "isCorrect": true
+          },
+          {
+            "text": "A lifecycle method",
+            "isCorrect": false
+          },
+          {
+            "text": "A library for state management",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Which hook is used to manage state in functional components?",
+        "answers": [
+          {
+            "text": "useEffect",
+            "isCorrect": false
+          },
+          {
+            "text": "useContext",
+            "isCorrect": false
+          },
+          {
+            "text": "useState",
+            "isCorrect": true
+          },
+          {
+            "text": "useReducer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Which method is used to add state to class components?",
+        "answers": [
+          {
+            "text": "setState()",
+            "isCorrect": true
+          },
+          {
+            "text": "useState()",
+            "isCorrect": false
+          },
+          {
+            "text": "useEffect()",
+            "isCorrect": false
+          },
+          {
+            "text": "componentDidUpdate()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "What are props in React?",
+        "answers": [
+          {
+            "text": "Internal data of the component",
+            "isCorrect": false
+          },
+          {
+            "text": "Arguments passed to the component for configuration",
+            "isCorrect": true
+          },
+          {
+            "text": "A lifecycle method",
+            "isCorrect": false
+          },
+          {
+            "text": "A tool for state management",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "What are fragments in React?",
+        "answers": [
+          {
+            "text": "Components that share functionality",
+            "isCorrect": false
+          },
+          {
+            "text": "Lifecycle methods",
+            "isCorrect": false
+          },
+          {
+            "text": "Hooks for managing state",
+            "isCorrect": false
+          },
+          {
+            "text": "A way to group multiple elements without adding extra nodes to the DOM",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Which command is used to create a new React project?",
+        "answers": [
+          {
+            "text": "npx create-react-app my-app",
+            "isCorrect": true
+          },
+          {
+            "text": "npm start",
+            "isCorrect": false
+          },
+          {
+            "text": "npm install react",
+            "isCorrect": false
+          },
+          {
+            "text": "npx react-init",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "Which lifecycle method is called after a component is updated?",
+        "answers": [
+          {
+            "text": "componentDidUpdate",
+            "isCorrect": true
+          },
+          {
+            "text": "componentDidMount",
+            "isCorrect": false
+          },
+          {
+            "text": "shouldComponentUpdate",
+            "isCorrect": false
+          },
+          {
+            "text": "componentWillUnmount",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Which hook is used for side effects in functional components?",
+        "answers": [
+          {
+            "text": "useState",
+            "isCorrect": false
+          },
+          {
+            "text": "useEffect",
+            "isCorrect": true
+          },
+          {
+            "text": "useContext",
+            "isCorrect": false
+          },
+          {
+            "text": "useReducer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "What is the Virtual DOM?",
+        "answers": [
+          {
+            "text": "A technology to speed up browser performance",
+            "isCorrect": false
+          },
+          {
+            "text": "An exact copy of the real DOM kept in memory to optimize updates",
+            "isCorrect": true
+          },
+          {
+            "text": "A lifecycle method",
+            "isCorrect": false
+          },
+          {
+            "text": "A library for state management",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "Which lifecycle method is called immediately after a component is inserted into the DOM?",
+        "answers": [
+          {
+            "text": "componentDidMount",
+            "isCorrect": true
+          },
+          {
+            "text": "componentWillMount",
+            "isCorrect": false
+          },
+          {
+            "text": "componentWillUpdate",
+            "isCorrect": false
+          },
+          {
+            "text": "componentWillUnmount",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question": "What are keys in React?",
+        "answers": [
+          {
+            "text": "Unique identifiers for elements used when rendering lists",
+            "isCorrect": true
+          },
+          {
+            "text": "Special lifecycle methods",
+            "isCorrect": false
+          },
+          {
+            "text": "Component properties",
+            "isCorrect": false
+          },
+          {
+            "text": "Methods for managing state",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "Which hook allows creating context in React?",
+        "answers": [
+          {
+            "text": "useState",
+            "isCorrect": false
+          },
+          {
+            "text": "useEffect",
+            "isCorrect": false
+          },
+          {
+            "text": "useContext",
+            "isCorrect": false
+          },
+          {
+            "text": "createContext",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "What is an HOC (Higher-Order Component) in React?",
+        "answers": [
+          {
+            "text": "A function that takes a component and returns a new component",
+            "isCorrect": true
+          },
+          {
+            "text": "A lifecycle method",
+            "isCorrect": false
+          },
+          {
+            "text": "A hook for managing state",
+            "isCorrect": false
+          },
+          {
+            "text": "A testing tool",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question": "Which method is used to create context in class components?",
+        "answers": [
+          {
+            "text": "createContext",
+            "isCorrect": false
+          },
+          {
+            "text": "static contextType",
+            "isCorrect": true
+          },
+          {
+            "text": "useContext",
+            "isCorrect": false
+          },
+          {
+            "text": "useReducer",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "What is a PureComponent in React?",
+        "answers": [
+          {
+            "text": "A component without state",
+            "isCorrect": false
+          },
+          {
+            "text": "A component that prevents unnecessary re-renders if its props and state have not changed",
+            "isCorrect": true
+          },
+          {
+            "text": "A functional component",
+            "isCorrect": false
+          },
+          {
+            "text": "A lifecycle method",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question": "Which directive is used to import React?",
+        "answers": [
+          {
+            "text": "import React from 'react'",
+            "isCorrect": true
+          },
+          {
+            "text": "require('react')",
+            "isCorrect": false
+          },
+          {
+            "text": "include React from 'react'",
+            "isCorrect": false
+          },
+          {
+            "text": "load React from 'react'",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question": "What are refs in React?",
+        "answers": [
+          {
+            "text": "A method to change the state of a component",
+            "isCorrect": false
+          },
+          {
+            "text": "A way to access DOM elements or React elements created in the render method",
+            "isCorrect": true
+          },
+          {
+            "text": "A hook for managing state",
+            "isCorrect": false
+          },
+          {
+            "text": "A lifecycle method",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question": "Which method is used to render a component in React?",
+        "answers": [
+          {
+            "text": "render()",
+            "isCorrect": true
+          },
+          {
+            "text": "show()",
+            "isCorrect": false
+          },
+          {
+            "text": "display()",
+            "isCorrect": false
+          },
+          {
+            "text": "mount()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question": "What are components in React?",
+        "answers": [
+          {
+            "text": "Functions or classes that return a part of the UI",
+            "isCorrect": true
+          },
+          {
+            "text": "Lifecycle methods",
+            "isCorrect": false
+          },
+          {
+            "text": "Hooks for managing state",
+            "isCorrect": false
+          },
+          {
+            "text": "Tools for testing",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question": "What is the primary purpose of React?",
+        "answers": [
+          {
+            "text": "To manage state in JavaScript applications",
+            "isCorrect": false
+          },
+          {
+            "text": "To build server-side applications",
+            "isCorrect": false
+          },
+          {
+            "text": "To build reusable UI components",
+            "isCorrect": true
+          },
+          {
+            "text": "To create database schemas",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "thema": "next",
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What is Next.js?",
+        "answers": [
+          {
+            "text": "A framework for building server-side rendered React applications",
+            "isCorrect": true
+          },
+          {
+            "text": "A library for state management",
+            "isCorrect": false
+          },
+          {
+            "text": "A CSS framework",
+            "isCorrect": false
+          },
+          {
+            "text": "A database management tool",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Who developed Next.js?",
+        "answers": [
+          {
+            "text": "Facebook",
+            "isCorrect": false
+          },
+          {
+            "text": "Google",
+            "isCorrect": false
+          },
+          {
+            "text": "Vercel",
+            "isCorrect": true
+          },
+          {
+            "text": "Microsoft",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "What command is used to create a new Next.js project?",
+        "answers": [
+          {
+            "text": "npx create-next-app",
+            "isCorrect": true
+          },
+          {
+            "text": "npx create-react-app",
+            "isCorrect": false
+          },
+          {
+            "text": "npm init next-app",
+            "isCorrect": false
+          },
+          {
+            "text": "next init",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "What file is used to define custom server configuration in Next.js?",
+        "answers": [
+          {
+            "text": "server.js",
+            "isCorrect": true
+          },
+          {
+            "text": "next.config.js",
+            "isCorrect": false
+          },
+          {
+            "text": "server.config.js",
+            "isCorrect": false
+          },
+          {
+            "text": "custom-server.js",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "What is a feature of Next.js?",
+        "answers": [
+          {
+            "text": "Server-side rendering",
+            "isCorrect": true
+          },
+          {
+            "text": "Global state management",
+            "isCorrect": false
+          },
+          {
+            "text": "CSS-in-JS",
+            "isCorrect": false
+          },
+          {
+            "text": "Database migrations",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Which method is used to define static paths for dynamic routes in Next.js?",
+        "answers": [
+          {
+            "text": "getStaticPaths",
+            "isCorrect": true
+          },
+          {
+            "text": "getStaticProps",
+            "isCorrect": false
+          },
+          {
+            "text": "getServerSideProps",
+            "isCorrect": false
+          },
+          {
+            "text": "getInitialProps",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Which hook can be used to perform data fetching in a component in Next.js?",
+        "answers": [
+          {
+            "text": "useEffect",
+            "isCorrect": true
+          },
+          {
+            "text": "useFetch",
+            "isCorrect": false
+          },
+          {
+            "text": "useData",
+            "isCorrect": false
+          },
+          {
+            "text": "useAsync",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "How can you enable static site generation (SSG) in Next.js?",
+        "answers": [
+          {
+            "text": "Using getStaticProps",
+            "isCorrect": true
+          },
+          {
+            "text": "Using getServerSideProps",
+            "isCorrect": false
+          },
+          {
+            "text": "Using getInitialProps",
+            "isCorrect": false
+          },
+          {
+            "text": "Using useStaticProps",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "What is the default port for a Next.js application?",
+        "answers": [
+          {
+            "text": "3000",
+            "isCorrect": true
+          },
+          {
+            "text": "8000",
+            "isCorrect": false
+          },
+          {
+            "text": "8080",
+            "isCorrect": false
+          },
+          {
+            "text": "5000",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "How do you navigate between pages in a Next.js application?",
+        "answers": [
+          {
+            "text": "Using the Link component from 'next/link'",
+            "isCorrect": true
+          },
+          {
+            "text": "Using window.location",
+            "isCorrect": false
+          },
+          {
+            "text": "Using the Nav component from 'next/nav'",
+            "isCorrect": false
+          },
+          {
+            "text": "Using the Router component from 'next/router'",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "question": "Which function is used to fetch data at request time in Next.js?",
+        "answers": [
+          {
+            "text": "getServerSideProps",
+            "isCorrect": true
+          },
+          {
+            "text": "getStaticProps",
+            "isCorrect": false
+          },
+          {
+            "text": "getInitialProps",
+            "isCorrect": false
+          },
+          {
+            "text": "useEffect",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "question": "How do you define API routes in a Next.js application?",
+        "answers": [
+          {
+            "text": "In the pages/api directory",
+            "isCorrect": true
+          },
+          {
+            "text": "In the api directory",
+            "isCorrect": false
+          },
+          {
+            "text": "In the services directory",
+            "isCorrect": false
+          },
+          {
+            "text": "In the lib directory",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "question": "Which command starts the development server in a Next.js project?",
+        "answers": [
+          {
+            "text": "npm run dev",
+            "isCorrect": true
+          },
+          {
+            "text": "npm start",
+            "isCorrect": false
+          },
+          {
+            "text": "npm run start",
+            "isCorrect": false
+          },
+          {
+            "text": "npm develop",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "question": "Which feature allows you to perform incremental static regeneration in Next.js?",
+        "answers": [
+          {
+            "text": "revalidate",
+            "isCorrect": true
+          },
+          {
+            "text": "regenerate",
+            "isCorrect": false
+          },
+          {
+            "text": "rebuild",
+            "isCorrect": false
+          },
+          {
+            "text": "refresh",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "question": "What is the purpose of the _app.js file in a Next.js project?",
+        "answers": [
+          {
+            "text": "To customize the App component that initializes every page",
+            "isCorrect": true
+          },
+          {
+            "text": "To define API routes",
+            "isCorrect": false
+          },
+          {
+            "text": "To configure server settings",
+            "isCorrect": false
+          },
+          {
+            "text": "To handle database connections",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "question": "How do you enable CSS modules in a Next.js project?",
+        "answers": [
+          {
+            "text": "By using the .module.css extension",
+            "isCorrect": true
+          },
+          {
+            "text": "By importing CSS files normally",
+            "isCorrect": false
+          },
+          {
+            "text": "By configuring next.config.js",
+            "isCorrect": false
+          },
+          {
+            "text": "By using styled-components",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "question": "How can you optimize images in a Next.js project?",
+        "answers": [
+          {
+            "text": "Using the Image component from 'next/image'",
+            "isCorrect": true
+          },
+          {
+            "text": "Using the img tag",
+            "isCorrect": false
+          },
+          {
+            "text": "Using a third-party library",
+            "isCorrect": false
+          },
+          {
+            "text": "Using the picture tag",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "question": "What is the default export of a Next.js page?",
+        "answers": [
+          {
+            "text": "A React component",
+            "isCorrect": true
+          },
+          {
+            "text": "A function",
+            "isCorrect": false
+          },
+          {
+            "text": "An object",
+            "isCorrect": false
+          },
+          {
+            "text": "A string",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "question": "How do you handle 404 errors in Next.js?",
+        "answers": [
+          {
+            "text": "By creating a 404.js file in the pages directory",
+            "isCorrect": true
+          },
+          {
+            "text": "By creating a 404.js file in the api directory",
+            "isCorrect": false
+          },
+          {
+            "text": "By setting a 404 route in next.config.js",
+            "isCorrect": false
+          },
+          {
+            "text": "By using a 404 component",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "question": "Which of the following is true about Next.js?",
+        "answers": [
+          {
+            "text": "It supports both server-side rendering and static site generation",
+            "isCorrect": true
+          },
+          {
+            "text": "It only supports client-side rendering",
+            "isCorrect": false
+          },
+          {
+            "text": "It does not support API routes",
+            "isCorrect": false
+          },
+          {
+            "text": "It is a backend framework",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "question": "What is the use of next/head?",
+        "answers": [
+          {
+            "text": "To modify the head of the document",
+            "isCorrect": true
+          },
+          {
+            "text": "To manage global state",
+            "isCorrect": false
+          },
+          {
+            "text": "To configure server settings",
+            "isCorrect": false
+          },
+          {
+            "text": "To define API routes",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "question": "What is the purpose of the next.config.js file?",
+        "answers": [
+          {
+            "text": "To configure settings and customizations for a Next.js project",
+            "isCorrect": true
+          },
+          {
+            "text": "To define React components",
+            "isCorrect": false
+          },
+          {
+            "text": "To manage state",
+            "isCorrect": false
+          },
+          {
+            "text": "To handle database connections",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "question": "How do you create dynamic routes in Next.js?",
+        "answers": [
+          {
+            "text": "By using square brackets in the file name inside the pages directory",
+            "isCorrect": true
+          },
+          {
+            "text": "By defining routes in next.config.js",
+            "isCorrect": false
+          },
+          {
+            "text": "By using the Route component",
+            "isCorrect": false
+          },
+          {
+            "text": "By creating routes in the api directory",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "question": "Which Next.js feature supports preview mode?",
+        "answers": [
+          {
+            "text": "getStaticProps with revalidate option",
+            "isCorrect": true
+          },
+          {
+            "text": "getServerSideProps",
+            "isCorrect": false
+          },
+          {
+            "text": "getInitialProps",
+            "isCorrect": false
+          },
+          {
+            "text": "useEffect",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "question": "Which command is used to build a Next.js application for production?",
+        "answers": [
+          {
+            "text": "npm run build",
+            "isCorrect": true
+          },
+          {
+            "text": "npm build",
+            "isCorrect": false
+          },
+          {
+            "text": "npm run start",
+            "isCorrect": false
+          },
+          {
+            "text": "npm run production",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
-import { CategoriesList } from '../components/common';
 import { Hero } from '../sections';
+import { CategoriesList } from '../components/common';
 
 export interface HomeProps {}
 

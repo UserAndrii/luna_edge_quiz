@@ -1,4 +1,5 @@
 import { FC, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { Button } from '../ui';
 
@@ -7,6 +8,7 @@ import { getAllQuizesName } from '../../redux/operations';
 import { selectAllQuizName } from '../../redux/selectors';
 
 export const CategoriesList: FC = () => {
+  const navigate = useNavigate();
   const dispatch = useAppDispatch();
   const quizNames = useAppSelector(selectAllQuizName);
 
@@ -30,7 +32,14 @@ export const CategoriesList: FC = () => {
               />
             </div>
 
-            <Button>{category}</Button>
+            <Button
+              className='w-full'
+              onClick={() =>
+                navigate('/quiz', { state: { message: category } })
+              }
+            >
+              {category}
+            </Button>
           </li>
         ))}
       </ul>

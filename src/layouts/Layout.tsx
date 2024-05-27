@@ -10,9 +10,9 @@ export interface LayoutProps {
 }
 
 export const Layout: FC<LayoutProps> = ({ children }) => (
-  <>
+  <div className='flex min-h-screen flex-col'>
     <Header />
-    <main>{children}</main>
+    <main className='flex-auto'>{children}</main>
     <Footer />
 
     <ToastContainer
@@ -27,5 +27,5 @@ export const Layout: FC<LayoutProps> = ({ children }) => (
       pauseOnHover
       theme='dark'
     />
-  </>
+  </div>
 );
