@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.82ad8fb9.css",
-    "main.js": "/static/js/main.e8dcfee5.js",
-    "static/media/logo.webp": "/static/media/logo.a3752e6790ef8285b406.webp",
-    "static/media/next.webp": "/static/media/next.6fd5bd71a2a0041ed024.webp",
-    "static/media/react.webp": "/static/media/react.059ee66dbea7fdb1df4e.webp",
-    "static/media/html.webp": "/static/media/html.a5e41bfcf652b0e9a371.webp",
-    "static/media/css.webp": "/static/media/css.b40e7d3173355ca26221.webp",
-    "static/media/js.webp": "/static/media/js.8aabe2d01ec6462636cf.webp",
-    "index.html": "/index.html",
-    "main.82ad8fb9.css.map": "/static/css/main.82ad8fb9.css.map",
-    "main.e8dcfee5.js.map": "/static/js/main.e8dcfee5.js.map"
+    "main.css": "/luna_edge_quiz/static/css/main.e5573ce1.css",
+    "main.js": "/luna_edge_quiz/static/js/main.16506bcc.js",
+    "static/media/logo.webp": "/luna_edge_quiz/static/media/logo.a3752e6790ef8285b406.webp",
+    "static/media/next.webp": "/luna_edge_quiz/static/media/next.6fd5bd71a2a0041ed024.webp",
+    "static/media/react.webp": "/luna_edge_quiz/static/media/react.059ee66dbea7fdb1df4e.webp",
+    "static/media/html.webp": "/luna_edge_quiz/static/media/html.a5e41bfcf652b0e9a371.webp",
+    "static/media/css.webp": "/luna_edge_quiz/static/media/css.b40e7d3173355ca26221.webp",
+    "static/media/js.webp": "/luna_edge_quiz/static/media/js.8aabe2d01ec6462636cf.webp",
+    "index.html": "/luna_edge_quiz/index.html",
+    "main.e5573ce1.css.map": "/luna_edge_quiz/static/css/main.e5573ce1.css.map",
+    "main.16506bcc.js.map": "/luna_edge_quiz/static/js/main.16506bcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ad8fb9.css",
-    "static/js/main.e8dcfee5.js"
+    "static/css/main.e5573ce1.css",
+    "static/js/main.16506bcc.js"
   ]
 }
