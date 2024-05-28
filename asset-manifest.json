@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/luna_edge_quiz/static/css/main.385bbbc5.css",
-    "main.js": "/luna_edge_quiz/static/js/main.2c786f71.js",
+    "main.css": "/luna_edge_quiz/static/css/main.9bc5982b.css",
+    "main.js": "/luna_edge_quiz/static/js/main.963c27f9.js",
     "static/media/logo.webp": "/luna_edge_quiz/static/media/logo.a3752e6790ef8285b406.webp",
     "static/media/next.webp": "/luna_edge_quiz/static/media/next.6fd5bd71a2a0041ed024.webp",
     "static/media/react.webp": "/luna_edge_quiz/static/media/react.059ee66dbea7fdb1df4e.webp",
+    "static/media/noFound.webp": "/luna_edge_quiz/static/media/noFound.3fcf7933722f40087161.webp",
     "static/media/html.webp": "/luna_edge_quiz/static/media/html.a5e41bfcf652b0e9a371.webp",
     "static/media/css.webp": "/luna_edge_quiz/static/media/css.b40e7d3173355ca26221.webp",
     "static/media/js.webp": "/luna_edge_quiz/static/media/js.8aabe2d01ec6462636cf.webp",
     "index.html": "/luna_edge_quiz/index.html",
-    "main.385bbbc5.css.map": "/luna_edge_quiz/static/css/main.385bbbc5.css.map",
-    "main.2c786f71.js.map": "/luna_edge_quiz/static/js/main.2c786f71.js.map"
+    "main.9bc5982b.css.map": "/luna_edge_quiz/static/css/main.9bc5982b.css.map",
+    "main.963c27f9.js.map": "/luna_edge_quiz/static/js/main.963c27f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.385bbbc5.css",
-    "static/js/main.2c786f71.js"
+    "static/css/main.9bc5982b.css",
+    "static/js/main.963c27f9.js"
   ]
 }
