@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { getAllQuizesName, getQuizTheme } from './operations';
+import { getAllQuizesName, getQuizTheme, postQuiz } from './operations';
 import { handlePending, handleRejected } from '../utils';
 import { ICategoryData, IQuizesData } from '../types';
 
@@ -43,7 +43,20 @@ const quizesSlice = createSlice({
         state.isLoading = false;
         state.error = null;
       })
-      .addCase(getQuizTheme.rejected, handleRejected);
+      .addCase(getQuizTheme.rejected, handleRejected)
+
+      .addCase(postQuiz.pending, handlePending)
+      .addCase(postQuiz.fulfilled, (state, action) => {
+        state.quizesName.push({
+          id: state.quizesName.length + 1,
+          category: action.payload.quiz.thema,
+          img: action.payload.img,
+        });
+        state.quizes.push(action.payload.quiz);
+        state.isLoading = false;
+        state.error = null;
+      })
+      .addCase(postQuiz.rejected, handleRejected);
   },
 });
 

@@ -30,7 +30,7 @@ export const Quiz: FC = () => {
     }
   }, [dispatch, quizName]);
 
-  const thema = quizTheme.find(item => item.thema === quizName);
+  const thema = quizTheme?.find(item => item?.thema === quizName);
 
   return (
     <section className='container'>

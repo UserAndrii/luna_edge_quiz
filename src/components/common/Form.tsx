@@ -1,13 +1,26 @@
 import { FC, ChangeEvent, FormEvent, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
-import { Button, CustomAnswerInput, CustomQuestionInput } from '../ui';
+import {
+  Button,
+  CustomAnswerInput,
+  CustomImageInput,
+  CustomQuestionInput,
+} from '../ui';
 
 import { newQuizData } from '../../data';
+import { useAppDispatch } from '../../redux/hooks';
 
 import { IQuiz } from '../../types';
+import { postQuiz } from '../../redux/operations';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 export const Form: FC = () => {
+  const navigate = useNavigate();
+  const dispatch = useAppDispatch();
   const [quizTitle, setQuizTitle] = useState('');
+  const [image, setImage] = useState('');
   const [questions, setQuestions] = useState<IQuiz[]>([
     {
       id: 1,
@@ -69,14 +82,22 @@ export const Form: FC = () => {
     e.preventDefault();
 
     const quiz = {
-      title: quizTitle,
+      thema: quizTitle,
       quiz: questions,
+      img: image,
     };
-    console.log(quiz);
+    dispatch(postQuiz(quiz));
+    toast.success('New quiz successfully added!');
+
+    setQuizTitle('');
+    setQuestions([]);
+    setImage('');
   };
 
   return (
     <form onSubmit={handleSubmit} className='lg:px-12'>
+      <CustomImageInput image={image} setImage={setImage} />
+
       <div className='mb-4'>
         <label className='mb-2 block text-lg font-medium' htmlFor='quizTitle'>
           Quiz Title:
@@ -118,19 +139,27 @@ export const Form: FC = () => {
         </div>
       ))}
 
-      <div className='flex justify-center gap-6'>
+      <div className='flex flex-col md:flex-row justify-center items-center gap-6'>
         <Button
           type='button'
           onClick={addQuestion}
-          className='rounded px-4 py-2 text-small normal-case'
+          className='flex w-max rounded px-4 py-2 text-small normal-case'
         >
           {newQuizData.btnAddForm}
         </Button>
         <Button
           type='submit'
-          className='rounded px-4 py-2 text-small normal-case'
+          className='flex w-max rounded px-4 py-2 text-small normal-case'
         >
           {newQuizData.submitBtn}
+        </Button>
+
+        <Button
+          className='flex w-max items-center justify-center gap-2 text-small normal-case'
+          onClick={() => navigate('/')}
+        >
+          Go Home
+          <FaArrowRightLong />
         </Button>
       </div>
     </form>

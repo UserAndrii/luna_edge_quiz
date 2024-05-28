@@ -7,6 +7,8 @@ import { useAppDispatch, useAppSelector } from '../../redux/hooks';
 import { getAllQuizesName } from '../../redux/operations';
 import { selectAllQuizName } from '../../redux/selectors';
 
+import notFound from '../../images/noFound.webp';
+
 export const CategoriesList: FC = () => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
@@ -24,12 +26,17 @@ export const CategoriesList: FC = () => {
             key={id}
             className='group relative rounded bg-white p-5 shadow-md transition-all duration-300 hover:shadow-xl focus:shadow-xl'
           >
-            <div className='mb-6 h-[230px] w-full'>
+            <div className='relative mb-6 h-[230px] w-full'>
               <img
-                src={img}
+                src={img.startsWith('blob') ? notFound : img}
                 alt={category}
                 className='h-full w-full object-cover'
               />
+              {img.startsWith('blob') && (
+                <p className='absolute inset-0 flex items-center justify-center text-large'>
+                  {category}
+                </p>
+              )}
             </div>
 
             <Button
